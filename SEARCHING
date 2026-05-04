@@ -8,4 +8,7 @@ dicari = 9
 
 hasil = linear_serch(data, dicari)
 
-print("angka: ", dicari, " ditemukan index: ", hasil)
+if hasil != -1:
+    print("Angka", dicari, "ada indeks ke:", hasil)
+else:
+    print("Tidak Ditemukan")
