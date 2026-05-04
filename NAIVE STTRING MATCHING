@@ -1,0 +1,8 @@
+
+text = "DATA STUKTUR DATA"
+pattern = "DATA"
+
+for i in range(len(text) - len(pattern) + 1):
+
+    if text[i:i+len(pattern)] == pattern:
+        print("Ketemu di index", i)
