@@ -1,4 +1,4 @@
-
+# NAIVE STTRING MATCHING
 text = "DATA STUKTUR DATA"
 pattern = "DATA"
 
